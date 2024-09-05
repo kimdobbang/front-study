@@ -11,7 +11,7 @@ for (let i = 0; i < arr2.length; i++) {
   //   console.log(arr2[i]);
 }
 
-// 1.2 for of 반복문
+// 1.2 for of 반복문 - 배열에만 사용 가능(객체에 x)
 for (let item of arr) {
   //   console.log(item);
 }
@@ -40,7 +40,7 @@ for (let value of values) {
   //   console.log(value);
 }
 
-// 2.3 for in
+// 2.3 for in - 객체만을 위한 순회 반복문(for of와 비슷하나 객체에만 사용)
 for (let key in person) {
   const value = person[key];
   console.log(key, value);
