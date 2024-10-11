@@ -1,0 +1,10 @@
+.logout {
+  background-color: gold;
+  border-bottom: 3px solid coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
